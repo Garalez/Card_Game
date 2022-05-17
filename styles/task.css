@@ -1,0 +1,23 @@
+.task {
+  padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.task__title {
+  margin-bottom: 35px;
+}
+
+.task__text {
+  font-size: 22px;
+}
+
+.btn {
+  width: 200px;
+  height: 200px;
+}

@@ -70,3 +70,16 @@ fieldset {
 iframe {
   border: none;
 }
+
+.disabled {
+  pointer-events: none;
+}
+
+.disabled-game_list {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.display-none {
+  display: none;
+}

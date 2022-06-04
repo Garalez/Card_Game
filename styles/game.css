@@ -51,3 +51,60 @@
   text-transform: uppercase;
   font-size: 24px;
 }
+
+@media(max-width: 768px){
+  .game {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  
+  .game__title {
+    margin-bottom: 25px;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .game__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 15px;
+    height: 100%;
+  }
+  
+  .game__items {
+    height: 150px;
+    width: 120px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .game__items-text {
+    padding: 40px 15px 0 15px;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+  }
+  
+  .next-round {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: -58px;
+    top: 184px;
+    transform: translate(-50%);
+    border: none;
+    border-radius: 50%;
+    background-color: deeppink;
+    color: white;
+    box-shadow: 0 0 1em #6c0287;
+    text-transform: uppercase;
+    font-size: 17px;
+  }  
+}

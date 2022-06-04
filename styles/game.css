@@ -59,13 +59,14 @@
   }
   
   .game__list {
-    row-gap: 20px;
-    column-gap: 15px;
+    row-gap: 0;
+    column-gap: 0;
   }
   
   .game__items {
     height: 150px;
     width: 120px;
+    margin-bottom: 15px;
   }
   
   .game__items-text {
